@@ -1,1 +1,41 @@
-My git
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Something</title>
+        <link href="style.css" rel="stylesheet" />
+        <link rel="jquery.bxslider.css" rel="stylesheet">
+
+        <script src="jquery.min.js" type="text/javascript"></script>
+        <script src="jquery.bxslider.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="top">
+                <h1>Kevin Vargas</h1>
+                <h2>Graphic and Web Designer.</h2>
+            </div>
+            <div id="slider" class="slider">
+                <ul class="bxslider">
+                    <li><a href="#"><img src="img/wall_e.jpg" alt="1"><span class="snip">Fuck You</span></a></li>
+                    <li><a href="#"><img src="img/clown_fish.jpg" alt="2"></a></li>
+                </ul>
+            </div>
+            <section id="about">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet magna sit amet massa tristique lacinia nec in arcu. Sed vel justo quis leo varius iaculis eu ut tortor. Ut cursus lorem cursus ante pellentesque porttitor. In hac habitasse platea dictumst. Curabitur eget neque eget leo vulputate dictum vitae nec ipsum. Vestibulum aliquam tellus nisi. Nunc lacinia nulla adipiscing nisi lobortis, a pharetra enim sodales. Sed tortor felis, accumsan ac vestibulum ac, cursus eu dui. Praesent vulputate neque ac erat vestibulum accumsan. Pellentesque in nisi a est consequat porta. Donec vel tortor non ipsum aliquam porta. Duis tempor felis a lectus euismod, ac accumsan ligula ullamcorper. Mauris laoreet nec neque at eleifend. Donec et tincidunt ligula. Quisque quis sagittis mi, eget mollis erat.</p>
+            </section>
+            <footer>
+                <p>&copy; 2013 KEVIN VARGAS.</p>
+            </footer>
+        </div>
+
+        <script>
+            $(document).ready(function ()
+            {
+                $('.bxslider').bxslider();
+            });
+        </script>
+    </body>
+</html>
